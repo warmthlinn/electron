@@ -1,0 +1,25 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "桌面应用",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "author": "huhao",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog-zh"
+    }
+  },
+  "devDependencies": {
+    "electron": "^16.0.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "dependencies": {
+    "cz-conventional-changelog-zh": "0.0.2"
+  }
+}
